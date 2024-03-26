@@ -159,5 +159,23 @@ main section:nth-child(2) {
   display: flex;
   text-align: center;
   flex-direction: column;
-  
+}
+
+#pinot-vinho{
+  display: flex;
+  align-items: center;
+  height: 265px;
+  padding-top: 20px;
+}
+#sauvignon-vinho{
+  display: flex;
+  align-items: center;
+  height: 265px;
+  padding-top: 20px;
+}
+#extrabrut-vinho{
+  display: flex;
+  align-items: center;
+  height: 265px;
+  padding-top: 20px;
 }
