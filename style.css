@@ -99,7 +99,7 @@ main section:first-child h1 {
 
 main section:nth-child(2) {
   height: 60vh;
-  background-color: #efefef;
+  background-color:   #efefef;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -178,4 +178,31 @@ main section:nth-child(2) {
   align-items: center;
   height: 265px;
   padding-top: 20px;
+}
+
+main section:nth-child(3){
+  height: 40vh;
+  background-color:   #e2e2e2;
+  display: flex;
+  align-items: center;
+}
+
+#sobre-img{
+  padding-left:30px ;
+  height: 40rem;
+  height: 18rem;
+}
+
+.sobre-texto{
+  display: flex ;
+  flex-direction: column;
+  text-align: center;
+}
+
+.sobre-botao{
+ margin-top: 3rem;
+ border: #ff0000; 
+ border-style: groove;
+ width: fit-content;
+ margin-left: 50%;
 }
