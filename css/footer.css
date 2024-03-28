@@ -24,13 +24,13 @@ footer .logo img {
   height: 10vh;
 }
 
-footer .icon{
-    display: flex;
-    text-decoration: none;
-    background-color: white;
-    color: #3d0e20;
-    padding: 10px;
-    border-radius: 50%;
+footer .icon {
+  display: flex;
+  text-decoration: none;
+  background-color: white;
+  color: #3d0e20;
+  padding: 10px;
+  border-radius: 50%;
 }
 
 footer .icon:hover {
@@ -49,16 +49,35 @@ footer .contato {
 footer span {
   width: 25%;
   content: "";
-  display: block;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 3em;
 }
 
-footer .contato{
+footer .contato {
   display: flex;
   justify-content: center;
-  color:white;
+  color: white;
 }
 
-footer .footer-navegation{
+footer .footer-navegation {
   display: flex;
   justify-content: right;
+}
+
+footer span ul {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  flex-direction: column;
+  list-style: none;
+  color: #fff;
+  font-family: "Urbanist";
+  gap: 0.6em;
+  cursor: pointer;
+}
+
+footer span ul li:hover {
+  opacity: .7;
 }

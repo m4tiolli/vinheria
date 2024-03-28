@@ -67,7 +67,7 @@
   position: absolute;
   top: 1em;
   text-align: left;
-  font-family: "Playfair Display";
+  font-family: "Urbanist";
   font-size: .9em;
 }
 
@@ -116,7 +116,7 @@
 }
 
 .profile-description {
-  font-family: "Playfair Display", serif;
+  font-family: "Urbanist", sans-serif;
   font-weight: 400;
   font-size: .8em;
 }

@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -36,9 +36,9 @@ a {
 }
 
 .button-primary {
-  font-family: "Crimson Text", serif;
+  font-family: "Urbanist", serif;
   font-size: 1.3em;
-  font-weight: 500;
+  font-weight: 400;
   background-color: rgba(61, 14, 32, 0.4);
   border-radius: 10px;
   width: 12%;
@@ -59,9 +59,47 @@ a {
   opacity: 0.7;
 }
 
+.filter-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 5vh;
+}
+
+.filtros {
+  display: flex;
+  gap: 1em;
+}
+
+.filtros button {
+  background-color: #631a36;
+  flex-wrap: wrap;
+  width: fit-content;
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: "Urbanist";
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.filtros button:hover {
+  opacity: .7;
+}
+
+.filtros button:active {
+  transform: translateY(2px);
+}
+
 .search-container {
   background-color: #631a36;
-  height: 1em;
+  flex-wrap: wrap;
   width: fit-content;
   padding: 1em;
   display: flex;
@@ -69,7 +107,6 @@ a {
   align-items: center;
   border-radius: 5px;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
-  margin-top: 5vh;
 }
 
 .search-container input {
@@ -155,8 +192,8 @@ main section:nth-child(3) {
 .sobre-texto {
   width: 40%;
   color: white;
-  font-family: "Playfair Display";
-  font-weight: 400;
+  font-family: "Urbanist";
+  font-weight: 200;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -167,7 +204,7 @@ main section:nth-child(3) {
 }
 
 .sobre-button {
-  font-family: "Crimson Text", serif;
+  font-family: "Urbanist", serif;
   font-size: 1.3em;
   font-weight: 500;
   background-color: rgba(61, 14, 32, 0.4);
