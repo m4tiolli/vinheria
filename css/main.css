@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  transition: all ease 0.2s;
+  user-select: none;
+  scroll-behavior: smooth;
+}
+
+.fa-chevron-down {
+  font-size: 2em;
+  position: absolute;
+  bottom: 2rem;
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  animation: bounce 2s linear infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.button-primary {
+  font-family: "Crimson Text", serif;
+  font-size: 1.3em;
+  font-weight: 500;
+  background-color: rgba(125, 43, 156, 0.4);
+  border: 2px solid #fff;
+  border-radius: 10px;
+  width: 12%;
+  height: 3rem;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  display: grid;
+  place-items: center;
+}
+
+.button-primary:hover {
+  background-color: #7d2b9c;
+  border: inset 2px rgba(255, 255, 255, 0.2);
+}
+
+.button-primary:active {
+  transform: translateY(2px);
+  opacity: 0.7;
+}
+
+main section:first-child {
+  background: url("../img/bg-home.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 88vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+main section:first-child h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  color: #fff;
+  width: 40%;
+  text-align: center;
+  font-size: 2rem;
+}
+
+main section:nth-child(2) {
+  height: 80vh;
+  background-color: #3a1a36;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+  position: relative;
+}
+
+main section:nth-child(3) {
+  height: 40vh;
+  background-color: #e2e2e2;
+  display: flex;
+  align-items: center;
+}
+
+#sobre-img {
+  padding-left: 30px;
+  height: 40rem;
+  height: 18rem;
+}
+
+.sobre-texto {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.sobre-botao {
+  margin-top: 3rem;
+  border: #ff0000;
+  border-style: groove;
+  width: fit-content;
+  margin-left: 50%;
+}
