@@ -8,6 +8,11 @@
   scroll-behavior: smooth;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .fa-chevron-down {
   font-size: 2em;
   position: absolute;
@@ -34,8 +39,7 @@
   font-family: "Crimson Text", serif;
   font-size: 1.3em;
   font-weight: 500;
-  background-color: rgba(125, 43, 156, 0.4);
-  border: 2px solid #fff;
+  background-color: rgba(61, 14, 32, 0.4);
   border-radius: 10px;
   width: 12%;
   height: 3rem;
@@ -47,13 +51,43 @@
 }
 
 .button-primary:hover {
-  background-color: #7d2b9c;
-  border: inset 2px rgba(255, 255, 255, 0.2);
+  background-color: #3d0e20;
 }
 
 .button-primary:active {
   transform: translateY(2px);
   opacity: 0.7;
+}
+
+.search-container {
+  background-color: #333333;
+  height: 1em;
+  width: fit-content;
+  padding: 1em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 16vh;
+}
+
+.search-container input {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  width: 25vw;
+  font-size: 1.3em;
+  color: #c5c5c5;
+}
+
+.search-container button {
+  border: none;
+  background-color: transparent;
+  color: #c5c5c5;
+  cursor: pointer;
+  font-size: 1.3em;
 }
 
 main section:first-child {
@@ -80,37 +114,78 @@ main section:first-child h1 {
 
 main section:nth-child(2) {
   height: 80vh;
-  background-color: #3a1a36;
+  background: #3d0e20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  position: relative;
+}
+
+main section:nth-child(2) h1 {
+  color: #fff;
+  margin-bottom: 3em;
+}
+
+main section:nth-child(2) .cards {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 5vw;
-  position: relative;
+  flex-direction: row;
+  margin-bottom: 4em;
 }
 
 main section:nth-child(3) {
-  height: 40vh;
-  background-color: #e2e2e2;
+  height: 60vh;
+  background-color: #1d1d1d;
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 #sobre-img {
-  padding-left: 30px;
   height: 40rem;
   height: 18rem;
+  border-radius: 5px;
 }
 
 .sobre-texto {
+  width: 40%;
+  color: white;
+  font-family: "Playfair Display";
+  font-weight: 400;
+  position: relative;
   display: flex;
   flex-direction: column;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  gap: 2em;
 }
 
-.sobre-botao {
-  margin-top: 3rem;
-  border: #ff0000;
-  border-style: groove;
-  width: fit-content;
-  margin-left: 50%;
+.sobre-button {
+  font-family: "Crimson Text", serif;
+  font-size: 1.3em;
+  font-weight: 500;
+  background-color: rgba(61, 14, 32, 0.4);
+  border-radius: 10px;
+  width: 30%;
+  height: 3rem;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  display: grid;
+  place-items: center;
+}
+
+.sobre-button:hover {
+  background-color: #3d0e20;
+}
+
+.sobre-button:active {
+  transform: translateY(2px);
+  opacity: 0.7;
 }

@@ -1,0 +1,64 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  height: 20vh;
+  background-color: #3d0e20;
+  position: relative;
+}
+
+footer .logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  gap: 1em;
+  width: 25%;
+}
+
+footer .logo img {
+  height: 10vh;
+}
+
+footer .icon{
+    display: flex;
+    text-decoration: none;
+    background-color: white;
+    color: #3d0e20;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+footer .icon:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+footer .contato {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+footer span {
+  width: 25%;
+  content: "";
+  display: block;
+}
+
+footer .contato{
+  display: flex;
+  justify-content: center;
+  color:white;
+}
+
+footer .footer-navegation{
+  display: flex;
+  justify-content: right;
+}

@@ -4,10 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/card.css">
-    <script src="https://kit.fontawesome.com/aec2c6e751.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="img/Icon.svg" type="image/svg" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/card.css" />
+    <link rel="stylesheet" href="css/footer.css">
+    <script
+      src="https://kit.fontawesome.com/aec2c6e751.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="shortcut icon" href="img/Icon1.svg" type="image/svg" />
     <title>NoVinho | Página Inicial</title>
   </head>
   <body>
@@ -18,7 +22,7 @@
       <nav>
         <ul>
           <li>Home</li>
-          <li>Produtos</li>
+          <li><a href="produtos.html">Produtos</li></a>
           <li>Sobre</li>
           <li>Contato</li>
         </ul>
@@ -26,102 +30,141 @@
     </header>
     <main>
       <section id="home">
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, temporibus qui nobis velit obcaecati mollitia?</h1>
+        <h1>
+          Bem vindo a NoVinho, explore nossos vinhos artesanais e celebre cada gole conosco!
+        </h1>
         <a href="#products" class="button-primary">Ver Mais</a>
         <a href="#products" class="fa-solid fa-chevron-down"></a>
       </section>
       <section id="products">
+          <h1>Produtos</h1>
+        <div class="cards">
         <div class="card-product">
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <img src="/img/diama-vinho.png" alt="Wine Image" id="diama-vinho">
+                <img
+                  src="/img/diama-vinho.png"
+                  alt="Wine Image"
+                  id="diama-vinho"
+                />
               </div>
-                <div class="flip-card-back">
-                  <h1 class="flip-card-back-name">DIAMÃ</h1><p class="flip-card-back-description"><h3>UVA</h3>
-                    36% Cabernet Sauvignon, 26% Cabernet Franc, 23% Malbec, 12% Merlot, 3% Petit Verdot
-                    <h3>TEOR ALCOÓLICO</h3>
-                    12,5% vol.
-                    <h3>SAFRA</h3><p>2020</p>
-                </div>
+              <div class="flip-card-back">
+                <p class="flip-card-back-description">
+                  36% Cabernet Sauvignon, 26% Cabernet Franc, 23% Malbec, 12%
+                  Merlot, 3% Petit Verdot
+                </p>
+                <p class="flip-card-back-alcool">12,5% vol.</p>
+                <p class="flip-card-back-safra">2020</p>
               </div>
             </div>
-            <div class="profile-info">
-              <h2 class="profile-name">DIAMÃ</h2>
-              <p class="profile-description">Vinho Fino Tinto Seco.</p>
-            </div>  
+          </div>
+          <div class="profile-info">
+            <h2 class="profile-name">DIAMÃ</h2>
+            <p class="profile-description">Vinho Fino Tinto Seco.</p>
+          </div>
         </div>
-          <div class="card-product">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img src="/img/pinot-vinho.png" alt="Wine" id="pinot-vinho">
-                </div>
-                  <div class="flip-card-back">
-                    <h1 class="flip-card-back-name">PINOT NOIR</h1><p class="flip-card-back-description"><h3>UVA</h3>
-                      100% Pinot Noir
-                      <h3>TEOR ALCOÓLICO</h3>
-                      12,7% vol.
-                      <h3>SAFRA</h3><p>2022</p>
-                  </div>
-                </div>
+        <div class="card-product">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="/img/pinot-vinho.png" alt="Wine" id="pinot-vinho" />
               </div>
-              <div class="profile-info">
-                <h2 class="profile-name">PINOT NOIR</h2>
-                <p class="profile-description">Vinho Fino Tinto Seco.</p>
-              </div>  
+              <div class="flip-card-back">
+                <p class="flip-card-back-description">100% Pinot Noir</p>
+                <p class="flip-card-back-alcool">12,7% vol.</p>
+                <p class="flip-card-back-safra">2022</p>
+              </div>
+            </div>
           </div>
-          <div class="card-product">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img src="/img/sauvignon-vinho.png" alt="Wine" id="sauvignon-vinho">
-                </div>
-                  <div class="flip-card-back">
-                    <h1 class="flip-card-back-name">SAUVIGNON BLANC</h1><p class="flip-card-back-description"><h3>UVA</h3>
-                      100% de uvas Sauvignon Blanc
-                      <h3>TEOR ALCOÓLICO</h3>
-                      12,7% vol.
-                      <h3>SAFRA</h3><p>2020</p>
-                  </div>
-                </div>
-              </div>
-              <div class="profile-info">
-                <h2 class="profile-name">SAUVIGNON BLANC</h2>
-                <p class="profile-description">Vinho Fino Branco Seco.</p>
-              </div>  
+          <div class="profile-info">
+            <h2 class="profile-name">PINOT NOIR</h2>
+            <p class="profile-description">Vinho Fino Tinto Seco.</p>
           </div>
-          <div class="card-product">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img src="/img/extrabrut-vinho.png" alt="Wine" id="extrabrut-vinho">
-                </div>
-                  <div class="flip-card-back">
-                    <h1 class="flip-card-back-name">EXTRA BRUT</h1><p class="flip-card-back-description"><h3>UVA</h3>
-                      50% Chardonnay; 50% Pinot Noir
-                      <h3>TEOR ALCOÓLICO</h3>
-                      12% vol.
-                      <h3>AUTÓLISE</h3><p>24 Meses</p>
-                  </div>
-                </div>
+        </div>
+        <div class="card-product">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="/img/sauvignon-vinho.png"
+                  alt="Wine"
+                  id="sauvignon-vinho"
+                />
               </div>
-              <div class="profile-info">
-                <h2 class="profile-name">EXTRA BRUT</h2>
-                <p class="profile-description">Vinho Branco Espumante.</p>
-              </div>  
-            </div>        
+              <div class="flip-card-back">
+                <p class="flip-card-back-description">
+                  100% de uvas Sauvignon Blanc
+                </p>
+                <p class="flip-card-back-alcool">12,7% vol.</p>
+                <p class="flip-card-back-safra">2020</p>
+              </div>
+            </div>
+          </div>
+          <div class="profile-info">
+            <h2 class="profile-name">SAUVIGNON BLANC</h2>
+            <p class="profile-description">Vinho Fino Branco Seco.</p>
+          </div>
+        </div>
+        <div class="card-product">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="/img/extrabrut-vinho.png"
+                  alt="Wine"
+                  id="extrabrut-vinho"
+                />
+              </div>
+              <div class="flip-card-back">
+                <p class="flip-card-back-description">
+                  50% Chardonnay; 50% Pinot Noir
+                </p>
+                <p class="flip-card-back-alcool">12,7% vol.</p>
+                <p class="flip-card-back-safra">2021</p>
+              </div>
+            </div>
+          </div>
+          <div class="profile-info">
+            <h2 class="profile-name">EXTRA BRUT</h2>
+            <p class="profile-description">Vinho Branco Espumante.</p>
+          </div>
+        </div>
+      </div>
+      <a href="#about" class="fa-solid fa-chevron-down"></a>
       </section>
-      <section>
-        <div>
-          <img src="./img/vinho-brindando.jpg" id="sobre-img">
-        </div>
+      <section id="about">
+          <img src="./img/vinho-brindando.jpg" id="sobre-img" />
         <div class="sobre-texto">
-          <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos corrupti exercitationem non assumenda ipsum delectus, sapiente repellat eos sunt aut illo, ratione molestiae, expedita velit ipsa eius! Numquam, cumque asperiores.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos corrupti exercitationem non assumenda ipsum delectus, sapiente repellat eos sunt aut illo, ratione molestiae, expedita velit ipsa eius! Numquam, cumque asperiores.</h4>
-        <a class="sobre-botao">Ver Mais</a>
+          <h4>
+            &nbsp;NoVinho é uma vinheria que encanta os apreciadores da boa bebida, proporcionando uma jornada sensorial única pelo mundo dos vinhos. Com uma seleção cuidadosamente curada de rótulos de diversas regiões vinícolas, NoVinho oferece uma experiência que celebra a arte e a paixão por essa bebida milenar. Nossa equipe apaixonada e experiente está sempre pronta para orientar os clientes na escolha do vinho perfeito para cada ocasião, seja um jantar íntimo, uma celebração especial ou simplesmente um momento de relaxamento. Em NoVinho, cada garrafa conta uma história e cada gole é uma experiência memorável. 
+          </h4>
+          <a class="sobre-button">Ver Mais</a>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+     <div class="logo">
+        <img src="img/Logo.svg" alt="">
+        <p>&copy; Gardim, Matiolli, Taschin</p>
+      </div>
+      <div class="contato">
+      <div class="icon">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+      </div>
+      <div class="icon">
+        <i class="fa fa-phone" aria-hidden="true"></i>
+      </div>
+      <div class="icon">
+        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+      </div>
+      <div class="icon">
+        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+      </div>
+    </div>
+    <span></span>
+
+    </footer>
   </body>
 </html>
+
