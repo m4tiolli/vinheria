@@ -1,10 +1,67 @@
 main {
   background-color: #1a1a1a;
-  height: 100vh;
+  height: 130vh;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   position: relative;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 2em;
+  width: 80%;
+  margin: auto;
+}
+
+.card {
+  background: #cacaca;
+  width: 13vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1em;
+  border-radius: 5px;
+  gap: .5em;
+  cursor: pointer;
+}
+
+.card img {
+  height: 20vh;
+}
+
+.title-card {
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+.desc-card {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: .9em;
+}
+
+.alcohol-price-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+}
+
+.price-card {
+  font-family: "Crimson Text", serif;
+  color: #06330d;
+  font-size: 1.2em;
+}
+
+.alcohol-card {
+  font-family: "Crimson Text", serif;
+  color: #333333;
+  font-size: 1em;
+
 }
