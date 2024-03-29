@@ -50,9 +50,8 @@ footer span {
   width: 25%;
   content: "";
   display: flex;
-  justify-content: end;
+  justify-content: center;
   align-items: center;
-  padding-right: 3em;
 }
 
 footer .contato {
@@ -76,6 +75,7 @@ footer span ul {
   font-family: "Urbanist";
   gap: 0.6em;
   cursor: pointer;
+  width: 80%;
 }
 
 footer span ul li:hover {
