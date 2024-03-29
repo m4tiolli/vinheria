@@ -10,3 +10,28 @@ main {
   gap: 10vh;
   padding-bottom: 20vh;
 }
+
+main h1 {
+  font-family: "Playfair Display", serif;
+  color: #fff;
+  font-weight: 300;
+}
+
+main div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+main div p {
+  font-family: "Urbanist", sans-serif;
+  color: #fff;
+  width: 60%;
+  font-size: 1.3em;
+  text-align: justify;
+}
+.sobre img {
+  width: 600px;
+  height: 500px;
+}

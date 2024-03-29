@@ -35,12 +35,99 @@
     font-size: 20px;
     width: 700px;
 }
-.compra-img img{
+
+.imgsyrah img{
+    width: 330px;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 4%;
+}
+
+.imgcasalgarcia img{
+    width: 280px;
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 4%;
+}
+
+.imgchardonnay img{
+    width: 280px;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 4%;
+}
+
+.imgchateaubergeron img{
+    width: 100px;
+    position: absolute;
+    margin-top: 7.5%;
+    margin-left: 10%;
+}
+
+.imgcordel img{
+    width: 75px;
+    position: absolute;
+    margin-top: 11%;
+    margin-left: 10%;
+}
+
+.imgextrabrut img{
+    width: 63px;
+    position: absolute;
+    margin-top: 11%;
+    margin-left: 12%;
+}
+
+.imgnature img{
+    width: 250px;
+    position: absolute;
+    margin-top: 10.5%;
+    margin-left: 4%;
+}
+
+.imgpetitverdot img{
+    width: 300px;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 4%;
+}
+
+.imgpinot img{
+    width: 80px;
+    position: absolute;
+    margin-top: 10.8%;
+    margin-left: 11%;
+}
+
+.imgsauvignon img{
+    width: 280px;
+    position: absolute;
+    margin-top: 10.3%;
+    margin-left: 4%;
+}
+
+.imgsomnan img{
+    width: 280px;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 4%;
+}
+
+
+.imgveuve img{
+    width: 250px;
+    position: absolute;
+    margin-top: 10.5%;
+    margin-left: 8%;
+}
+
+
+/*.compra-img img{
     width: 100px;
     position: absolute;
     margin-top: 10%;
     margin-left: 10%;
-}
+}*/
 
 .compra-btn{
     position: absolute;
@@ -87,5 +174,10 @@
     
 }
 footer{
-    margin-top: 43.5em;
+    margin-top: 49.64em;
+}
+
+#syrah{
+    width: 500px;
+    height: 500px;
 }
