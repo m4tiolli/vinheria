@@ -1,6 +1,8 @@
 main {
   background-color: #1a1a1a;
-  height: 130vh;
+  min-height: fit-content;
+  gap: 8vh;
+  padding-bottom: 20vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -14,6 +16,18 @@ main {
   gap: 2em;
   width: 80%;
   margin: auto;
+}
+
+.cards a {
+  cursor: pointer;
+}
+
+.cards a:hover {
+  opacity: .7;
+}
+
+.cards a:active {
+  transform: translateY(2px);
 }
 
 .card {
@@ -34,7 +48,7 @@ main {
 }
 
 .title-card {
-  font-family: "Playfair Display", serif;
+  font-family: "Urbanist", sans-serif;
   font-weight: 500;
   font-size: 1.5em;
   color: #fff;
@@ -50,7 +64,7 @@ main {
 }
 
 .alcohol-card {
-  font-family: "Crimson Text", serif;
+  font-family: "Urbanist", serif;
   color: #fff;
-  font-size: 1em;
+  font-size: 1.1em;
 }

@@ -1,0 +1,37 @@
+main {
+  min-height: 88vh;
+  max-height: fit-content;
+  background-color: #1d1d1d;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10vh;
+  padding-bottom: 20vh;
+}
+
+main h1 {
+  font-family: "Playfair Display", serif;
+  color: #fff;
+  font-weight: 300;
+}
+
+main div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+main div p {
+  font-family: "Urbanist", sans-serif;
+  color: #fff;
+  width: 40%;
+  font-size: 1.3em;
+  text-align: justify;
+}
+
+main div iframe {
+  border-radius: 5px;
+}

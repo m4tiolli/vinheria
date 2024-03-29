@@ -1,0 +1,12 @@
+main {
+  min-height: 88vh;
+  max-height: fit-content;
+  background-color: #1d1d1d;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10vh;
+  padding-bottom: 20vh;
+}
