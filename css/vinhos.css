@@ -1,126 +1,129 @@
-.compra{
-    display: flex;
-    
-}
-.compra-nome{
-    margin-top: 100px;
-    position: absolute;
-    margin-top: 10%;
-    margin-left: 20%;
-    font-size: 38px;
-    
-
+body {
+  background-color: #1a1a1a !important;
+  color: #fff;
 }
 
-.compra-preco{
-    margin-top: 100px;
-    position: absolute;
-    margin-top: 13.4%;
-    margin-left: 20%;
-    font-size: 30px;
-
+.compra {
+  display: flex;
+  gap: 5em;
 }
-.compra-rating{
-    position: absolute;
-    margin-top: 16.4%;
-    margin-left: 20%;
-    color: #3d0e20;
-
+.compra-nome {
+  margin-top: 100px;
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 20%;
+  font-size: 38px;
+  font-family: "Crimson Text";
 }
 
-.compra-descricao{
-    position: absolute;
-    margin-top: 18.4%;
-    margin-left: 20%;
-    font-size: 20px;
-    width: 700px;
+.compra-preco {
+  margin-top: 100px;
+  position: absolute;
+  margin-top: 13.4%;
+  margin-left: 20%;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "Urbanist";
+}
+.compra-rating {
+  position: absolute;
+  margin-top: 16.4%;
+  margin-left: 20%;
+  color: #3d0e20;
 }
 
-.imgsyrah img{
-    width: 330px;
-    position: absolute;
-    margin-top: 10%;
-    margin-left: 4%;
+.compra-descricao {
+  position: absolute;
+  margin-top: 18.4%;
+  margin-left: 20%;
+  font-size: 20px;
+  width: 700px;
+  font-family: "Playfair Display";
 }
 
-.imgcasalgarcia img{
-    width: 280px;
-    position: absolute;
-    margin-top: 7%;
-    margin-left: 4%;
+.imgsyrah img {
+  width: 330px;
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 4%;
 }
 
-.imgchardonnay img{
-    width: 280px;
-    position: absolute;
-    margin-top: 10%;
-    margin-left: 4%;
+.imgcasalgarcia img {
+  width: 280px;
+  position: absolute;
+  margin-top: 7%;
+  margin-left: 4%;
 }
 
-.imgchateaubergeron img{
-    width: 100px;
-    position: absolute;
-    margin-top: 7.5%;
-    margin-left: 10%;
+.imgchardonnay img {
+  width: 280px;
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 4%;
 }
 
-.imgcordel img{
-    width: 75px;
-    position: absolute;
-    margin-top: 11%;
-    margin-left: 10%;
+.imgchateaubergeron img {
+  width: 100px;
+  position: absolute;
+  margin-top: 7.5%;
+  margin-left: 10%;
 }
 
-.imgextrabrut img{
-    width: 63px;
-    position: absolute;
-    margin-top: 11%;
-    margin-left: 12%;
+.imgcordel img {
+  width: 75px;
+  position: absolute;
+  margin-top: 11%;
+  margin-left: 10%;
 }
 
-.imgnature img{
-    width: 250px;
-    position: absolute;
-    margin-top: 10.5%;
-    margin-left: 4%;
+.imgextrabrut img {
+  width: 63px;
+  position: absolute;
+  margin-top: 11%;
+  margin-left: 12%;
 }
 
-.imgpetitverdot img{
-    width: 300px;
-    position: absolute;
-    margin-top: 10%;
-    margin-left: 4%;
+.imgnature img {
+  width: 250px;
+  position: absolute;
+  margin-top: 10.5%;
+  margin-left: 4%;
 }
 
-.imgpinot img{
-    width: 80px;
-    position: absolute;
-    margin-top: 10.8%;
-    margin-left: 11%;
+.imgpetitverdot img {
+  width: 300px;
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 4%;
 }
 
-.imgsauvignon img{
-    width: 280px;
-    position: absolute;
-    margin-top: 10.3%;
-    margin-left: 4%;
+.imgpinot img {
+  width: 80px;
+  position: absolute;
+  margin-top: 10.8%;
+  margin-left: 11%;
 }
 
-.imgsomnan img{
-    width: 280px;
-    position: absolute;
-    margin-top: 10%;
-    margin-left: 4%;
+.imgsauvignon img {
+  width: 280px;
+  position: absolute;
+  margin-top: 10.3%;
+  margin-left: 4%;
 }
 
-
-.imgveuve img{
-    width: 250px;
-    position: absolute;
-    margin-top: 10.5%;
-    margin-left: 8%;
+.imgsomnan img {
+  width: 280px;
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 4%;
 }
 
+.imgveuve img {
+  width: 250px;
+  position: absolute;
+  margin-top: 10.5%;
+  margin-left: 8%;
+}
 
 /*.compra-img img{
     width: 100px;
@@ -129,55 +132,80 @@
     margin-left: 10%;
 }*/
 
-.compra-btn{
-    position: absolute;
-    margin-top: 25.5%;
-    margin-left: 70%;
-    
+.compra-btn {
+  position: absolute;
+  margin-top: 30%;
+  margin-left: 70%;
 }
-.compra-btn-add{
-    position: absolute;
-    margin-top: 30%;
-    margin-left: 70%;
+.compra-btn-add {
+  position: absolute;
+  margin-top: 35%;
+  margin-left: 70%;
 }
 .compra-btn button,
-.compra-btn-add button{
-    background-color: #631a36;
-    flex-wrap: wrap;
-    width: 300px;
-    padding: 1em;
-    border-radius: 5px;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
-    border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    font-family: "Urbanist";
-    font-size: 1.1em;
-    cursor: pointer;
+.compra-btn-add button {
+  background-color: #631a36;
+  flex-wrap: wrap;
+  width: 300px;
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: "Urbanist";
+  font-size: 1.1em;
+  cursor: pointer;
 }
 
 .compra-btn button:hover,
-.compra-btn-add button:hover{
-    opacity: 0.7;
+.compra-btn-add button:hover {
+  opacity: 0.7;
 }
 
 .compra-btn button:active,
-.compra-btn-add button:active{
-    transform:translatey(4px)
+.compra-btn-add button:active {
+  transform: translatey(4px);
 }
-.compra-texto{
-    position: absolute;
-    margin-top: 15%;
-    margin-left: 70%;
-    
+.compra-texto {
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 70%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1em;
+  margin-bottom: 4em;
+  border-radius: 10px;
+  font-family: "Urbanist";
+  width: 18.75%;
+  height: 20%;
 }
-footer{
-    margin-top: 49.64em;
+footer {
+  margin-top: 49.64em;
 }
 
-#syrah{
-    width: 500px;
-    height: 500px;
+.compra-texto h2:first-child {
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+
+.compra-texto h2:nth-child(2) {
+  font-weight: 400;
+  font-size: 0.8em;
+}
+.compra-texto h2:nth-child(3) {
+  font-weight: 600;
+  font-size: 1em;
+  color: #226126;
+  margin-bottom: 1em;
+}
+
+#syrah {
+  width: 500px;
+  height: 500px;
 }

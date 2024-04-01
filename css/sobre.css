@@ -20,14 +20,14 @@ main h1 {
 main div {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 90%;
 }
 
 main div p {
   font-family: "Urbanist", sans-serif;
   color: #fff;
-  width: 60%;
+  width: 30%;
   font-size: 1.3em;
   text-align: justify;
 }
